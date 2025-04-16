@@ -69,3 +69,58 @@ footer {
   padding: 1em;
   font-size: 0.9em;
 }
+
+.subscription-options {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2em;
+  margin: 3em 2em;
+}
+
+.subscription-options h3 {
+  width: 100%;
+  text-align: center;
+  font-size: 2em;
+  margin-bottom: 1em;
+}
+
+.option {
+  background: rgba(0, 0, 0, 0.4);
+  border: 2px solid #ffffff33;
+  border-radius: 15px;
+  padding: 2em;
+  width: 220px;
+  text-align: center;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.option:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 15px #ffffff55;
+}
+
+.option h4 {
+  font-size: 1.3em;
+  margin-bottom: 0.5em;
+}
+
+.option p {
+  font-size: 1.2em;
+  margin-bottom: 1em;
+}
+
+.option button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 0.7em 1.5em;
+  border-radius: 8px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.option button:hover {
+  background-color: #45a049;
+}
