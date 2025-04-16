@@ -124,3 +124,18 @@ footer {
 .option button:hover {
   background-color: #45a049;
 }
+
+.order-button {
+  display: inline-block;
+  background-color: #4CAF50;
+  color: white;
+  text-decoration: none;
+  padding: 0.7em 1.5em;
+  border-radius: 8px;
+  font-size: 1em;
+  transition: background-color 0.2s;
+}
+
+.order-button:hover {
+  background-color: #45a049;
+}
